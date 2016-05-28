@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ACLWin">
+      <UniqueIdentifier>{318077e6-4351-4dce-8a4f-1e6a92d56a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ACLWin\Include">
+      <UniqueIdentifier>{83a784e7-7165-4daa-a9d6-77ae47a13ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ACLWin\Source">
+      <UniqueIdentifier>{354894b9-8b2c-49a3-b8af-72526e84e549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{392cc933-a7bb-48f1-a0a9-4ac19c657911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample">
+      <UniqueIdentifier>{5bbd3d8b-4c38-4623-abc8-a15a69fe4504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample\Include">
+      <UniqueIdentifier>{a38c4d00-f889-441b-9497-8c7c2543b40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample\Source">
+      <UniqueIdentifier>{5c4ce1b7-83b4-4b2a-a5e7-8ec7d15c5de3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Sample\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Sample\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.h">
+      <Filter>Sample\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleApp.h">
+      <Filter>Sample\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleMainWindow.h">
+      <Filter>Sample\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBar.h">
+      <Filter>Sample\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Sample\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLLib.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLOutMsg.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLStr.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLWinApp.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLWinBase.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLWinDlg.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLWinDlgTypes.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLWinTypes.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLWinWaitCursor.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLWinWaitDlg.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLHeap.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLStringLoader.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLPlat.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACLWin\Include\ACLString.h">
+      <Filter>ACLWin\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Sample\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>Sample\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleApp.cpp">
+      <Filter>Sample\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleMainWindow.cpp">
+      <Filter>Sample\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBar.cpp">
+      <Filter>Sample\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLLib.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLOutMsg.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLStr.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLWinApp.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLWinBase.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLWinDlg.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLWinWaitCursor.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLHeap.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLStringLoader.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACLWin\Source\ACLString.cpp">
+      <Filter>ACLWin\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ACLWin.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ACLWin.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
